@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Abhinav Snake Game 🐍</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Abhinav Snake Game 🐍</h1>
+      <div id="score-board">Score: 0</div>
+      <div id="game-arena" aria-label="Game arena" role="application"></div>
+      <button id="start-button" class="start-button">Start Game</button>
+    </main>
+
+    <div id="game-over-modal" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="modal-content">
+        <h2>Game Over</h2>
+        <p id="final-score">Your Score: 0</p>
+        <button id="restart-button" class="start-button">Restart</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
